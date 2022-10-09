@@ -26,7 +26,7 @@ public class RockPaperScissors {
                     System.out.println("Player B enter your move: ");
                     moveB = scanner.nextLine();
 
-                    if (moveB.equals("R")) {
+                    if (moveB.equalsIgnoreCase("R")) {
                         System.out.println("Rock vs Rock it's a Tie!");
                         System.out.println("Do you want to play again [Y/N]");
                         userResp = scanner.nextLine();
